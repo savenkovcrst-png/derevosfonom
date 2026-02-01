@@ -1,0 +1,47 @@
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+
+  /* фоновая картинка */
+  background: url('assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+h1 {
+  text-align: center;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.node {
+  border-left: 2px solid #00ffff;
+  margin-left: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.stage {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.description, .tools {
+  margin-left: 10px;
+}

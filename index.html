@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Дерево решений бурения</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Дерево решений по бурению</h1>
+    <select id="chapterSelect">
+      <option value="">Выберите тип аварии</option>
+      <option value="stuckPipe">Прихваты бурильной колонны</option>
+      <option value="pipeFailure">Обрывы бурильной колонны</option>
+      <option value="circulationLoss">Потеря циркуляции</option>
+      <option value="kicks">Газонефтеводопроявления</option>
+      <option value="collapses">Обвалы и осыпания</option>
+      <option value="motors">Аварии с забойными двигателями</option>
+      <option value="toolFailure">Разрушение бурового инструмента</option>
+      <option value="miscComplications">Прочие осложнения</option>
+    </select>
+    <div id="treeContainer"></div>
+  </div>
+  <script type="module" src="logic.js"></script>
+</body>
+</html>
